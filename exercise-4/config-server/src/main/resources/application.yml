@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/BrenoEduardo/NewsLestter-config-repo
+server:
+  port: 8888
